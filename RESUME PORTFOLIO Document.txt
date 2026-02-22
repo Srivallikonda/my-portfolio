@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #cbd5e1;
+        }
+
+        nav {
+            background: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 40px 10%;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1f2937;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e5e7eb;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kondalamma M</h1>
+    <p>QA Engineer | Manual & Automation Testing | Selenium | Java | API Testing</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Software Tester with 1+ year of experience in Manual and Automation Testing and API testing and Performance testing.
+        I specialize in writing test cases, reporting defects, and automating regression
+        test scripts using Selenium WebDriver with Java.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Manual Testing</span>
+        <span>Test Case Design</span>
+        <span>Regression Testing</span>
+        <span>Automation Testing</span>
+        <span>Selenium WebDriver</span>
+        <span>Java</span>
+        <span>TestNG</span>
+        <span>Maven</span>
+        <span>API testing</span>
+        <span>JIRA</span>
+        <span>Postman</span>
+        <span>Git & GitHub</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>E-Commerce Web Application Testing</h3>
+        <p><strong>Role:</strong> QA Tester</p>
+        <p>
+            - Designed and executed manual test cases<br>
+            - Performed regression and smoke testing<br>
+            - Logged defects in JIRA<br>
+            - Automated regression test cases using Selenium
+        </p>
+        <a href="https://github.com/yourusername" class="btn">View GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Automation Framework Development</h3>
+        <p>
+            - Developed Selenium framework using POM design pattern<br>
+            - Used TestNG for execution and reporting<br>
+            - Managed dependencies using Maven
+        </p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: srivallikondalamma@gmail.com</p>
+    <p>LinkedIn: www.linkedin.com/in/kondalamma-modugumudi-3b58ba249</p>
+    <p>GitHub: https://github.com/Srivallikonda</p>
+</section>
+
+<footer>
+    <p>© 2026 Kondalamma M | QA Portfolio</p>
+</footer>
+
+</body>
+</html>
